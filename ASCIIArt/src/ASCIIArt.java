@@ -15,3 +15,68 @@
  */
 
 // YOUR CODE GOES HERE :)
+public class ASCIIArt {
+	public static void neck () {
+	System.out.println("  |     |_");
+	}
+	public static void tail () {
+	System.out.print("\\ \\");
+	}
+	public static void feet () {
+	System.out.print("  |    |");
+	}
+	public static void legs () {
+	feet();
+	feet();
+	feet();
+	feet();
+	}
+	public static void actualFeet () {
+	System.out.print("  /____)");	
+	}
+	public static void allFeet () {
+	actualFeet();
+	actualFeet();
+	actualFeet();
+	actualFeet();
+	}
+	public static void main (String[] args) {
+	System.out.println("   O   O");
+	System.out.println("   |_ _| ");
+	System.out.println("   | U |");
+	System.out.println(" (o>  <o)3");
+	System.out.println(" _|__   |");
+	System.out.println("(.      |");
+	System.out.println(" ---    |---\"Where did my mama go?\"");
+	System.out.println("(_______|");
+	neck();
+	neck();
+	neck();
+	neck();
+	neck();
+	neck();
+	neck();
+	neck();
+	neck();
+	System.out.println("  |      \\_______________________");
+	System.out.println("  |            ___               \\");
+	System.out.print("  |           /   \\   ___      |");
+	tail();
+	System.out.print("\n  |     ___   \\___/  /   \\     | ");
+	tail();
+	System.out.print("\n  |    /   \\         \\___/     |  ");
+	tail();
+	System.out.print("\n  |    \\___/                   |   ");
+	System.out.print("( )");
+	System.out.print("\n  |    |  |    |  |    |  |    |    ");
+	System.out.println("\\\\\\");
+	legs();
+	System.out.println();
+	legs();
+	System.out.println();
+	legs();
+	System.out.println();
+	allFeet();
+	System.out.println("\n This is a giraffe who is lost from his mother.");
+	}
+}
